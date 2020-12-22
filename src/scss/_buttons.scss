@@ -4,13 +4,16 @@ button {
 
 .button {
   line-height: 1;
-  background-color: #BEE6E1;
+  background-color: $clickable;
   padding: 1em 1.5em;
   border-radius: 6px;
+  color: white;
+  &:hover {
+    background-color: $clickable-hover;
+  }
 }
 
 button.button {
-
 }
 a.button {
   text-decoration: none;

@@ -1,16 +1,22 @@
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: $text;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 // Scale based on Jason Pamental's
 // http://typecast.com/blog/a-more-modern-scale-for-web-typography
 
-h1, .h1 {
+h1,
+.h1 {
   font-family: $sans;
   // font-weight: 800;
   line-height: 1.25;
-  letter-spacing: -1.5px;
+  letter-spacing: -0.5px;
   font-size: em(32);
   @include breakpoint(large) {
     font-size: em(40);
@@ -22,9 +28,10 @@ h1, .h1 {
   }
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-family: $sans;
-  font-weight: 800;
+  // font-weight: 800;
   line-height: 1.153;
   letter-spacing: -0.5px;
   font-size: em(26);
@@ -37,9 +44,10 @@ h2, .h2 {
   }
 }
 
-h3, .h3 {
+h3,
+.h3 {
   font-family: $sans;
-  font-weight: 800;
+  // font-weight: 800;
   line-height: 1.36;
   letter-spacing: 0;
   font-size: em(22);
@@ -52,7 +60,8 @@ h3, .h3 {
   }
 }
 
-h4, .h4 {
+h4,
+.h4 {
   font-family: $sans;
   font-weight: 800;
   line-height: 1.111;
@@ -70,7 +79,8 @@ a {
   text-decoration: none;
 }
 
-p, .p {
+p,
+.p {
   font-weight: 400;
   color: $text;
   line-height: 1.25;

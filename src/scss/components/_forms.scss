@@ -2,11 +2,13 @@
 
 .form {
   @include default-sizing(700px);
+  padding-bottom: 3em;
+  // text-align: center;
 }
 
-input[type='text'],
-input[type='email'],
-input[type='tel'],
+input[type="text"],
+input[type="email"],
+input[type="tel"],
 textarea {
   margin-bottom: 1em;
   width: 100%;
@@ -21,7 +23,6 @@ label {
 textarea {
   height: 6em;
 }
-
 
 // select styling
 // https://codepen.io/bdnorris/pen/BMorpx
