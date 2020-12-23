@@ -3,15 +3,18 @@ extends layouts/default.pug
 block content
   section
     div.form
-      h1.h3!= 'Join our mailing list for news of our Grand Opening'
+      h2.h3= 'Stationery Templates for Photographers'
+        p
+          a(href='https://www.etsy.com/shop/ChartaDesignStudio?ref=search_shop_redirect')= 'Visit Our Store on Etsy'
+      h2.h3!= 'Contact Us for Custom Wedding Invitations'
       form(data-netlify='true' class='pageclip-form' method='post')
         <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
         //- label(for='name')= 'Name'
         //- input(type='text' name='name' id='name' value='' required)
         label(for='email')= 'Email'
         input(type='email' name='email' id='email' placeholder='user@example.com' required)
-        //- label(for='message')= 'Message'
-        //- textarea(name='message' id='message')
+        label(for='message')= 'Let us know a few details about what you’re looking for…'
+        textarea(name='message' id='message')
         <!-- This button will have a loading spinner. Keep the inner span for best results. -->
         button(type='submit' class='button')
           span= 'Send'

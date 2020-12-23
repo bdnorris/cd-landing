@@ -13,19 +13,26 @@ h6 {
 
 h1,
 .h1 {
+  font-size: 1.1875em;
+  font-weight: 300;
+  margin: 0;
+  line-height: 1;
+  letter-spacing: 1.36px;
+  text-transform: uppercase;
   font-family: $sans;
+  color: $gray;
   // font-weight: 800;
-  line-height: 1.25;
-  letter-spacing: -0.5px;
-  font-size: em(32);
-  @include breakpoint(large) {
-    font-size: em(40);
-    line-height: 1.125;
-  }
-  @include breakpoint(xlarge) {
-    font-size: em(48);
-    line-height: 1.05;
-  }
+  // line-height: 1.25;
+  // letter-spacing: -0.5px;
+  // font-size: em(32);
+  // @include breakpoint(large) {
+  //   font-size: em(40);
+  //   line-height: 1.125;
+  // }
+  // @include breakpoint(xlarge) {
+  //   font-size: em(48);
+  //   line-height: 1.05;
+  // }
 }
 
 h2,
@@ -46,18 +53,15 @@ h2,
 
 h3,
 .h3 {
-  font-family: $sans;
-  // font-weight: 800;
-  line-height: 1.36;
-  letter-spacing: 0;
-  font-size: em(22);
-  @include breakpoint(large) {
-    font-size: em(24);
-    line-height: 1.25;
-  }
-  @include breakpoint(xlarge) {
-    font-size: em(28);
-  }
+  color: #6b93b1;
+  font-size: 1.5em;
+  // @include breakpoint(large) {
+  //   font-size: em(24);
+  //   line-height: 1.25;
+  // }
+  // @include breakpoint(xlarge) {
+  //   font-size: em(28);
+  // }
 }
 
 h4,

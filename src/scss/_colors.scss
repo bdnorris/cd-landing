@@ -1,12 +1,13 @@
 $red: #931621;
-$indigo: #28464b;
+$slateblue: #6b93b1;
 $green: #2c8c99;
 $dgreen: #326771;
 $turquoise: #42d9c8;
+$pink: #f1c0b8;
 
 $black: #0e1111;
 $dgray: #4a5053;
-$gray: #7a8185;
+$gray: #9ea7ad;
 $lgray: #9eafb2;
 $llgray: #dee2e2;
 
@@ -14,7 +15,7 @@ $llgray: #dee2e2;
 $text: $dgray;
 $text-light: $gray;
 $error: $red;
-$primary: $indigo;
+$primary: $slateblue;
 $secondary: $green;
-$clickable: $lgray;
-$clickable-hover: darken($lgray, 20%);
+$clickable: darken($pink, 10%);
+$clickable-hover: darken($clickable, 15%);

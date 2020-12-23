@@ -2,8 +2,12 @@
 
 header {
   div {
-    @include default-sizing(340px);
+    @include default-sizing(520px);
     margin-top: 4vw;
     margin-bottom: 2em;
+    text-align: center;
+    img {
+      margin-bottom: 1em;
+    }
   }
 }
